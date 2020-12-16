@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket  = "techlanders-madhu-statefile"
+    bucket  = "madhuinstancev2"
     key  = "terraform/state"
     region = "us-east-2"
 #   access_key = "XXXXXXXXXXXXXXXXXXXXXX"
